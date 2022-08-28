@@ -15,7 +15,7 @@ public class Calculator {
     }
 
     //Diviosn
-    public static int getDivision(int value1, int value2) {
+    public static double getDivision(double value1, double value2) {
         return value1 / value2;
     }
 }

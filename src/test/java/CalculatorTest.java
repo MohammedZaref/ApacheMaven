@@ -34,4 +34,16 @@ public class CalculatorTest {
         //then
         Assertions.assertEquals(250, multiply);
     }
+
+    @Test
+    void shouldDivideTwoValues() {
+        //given
+        double value1 = 25;
+        double value2 = 10;
+        //when
+        double division = Calculator.getDivision(25,10);
+        //then
+        Assertions.assertEquals(2.5, division);
+
+    }
 }
