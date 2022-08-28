@@ -12,4 +12,15 @@ public class CalculatorTest {
         //then
         Assertions.assertEquals(20, sum);
     }
+
+    @Test
+    void shouldSubTwoValue() {
+        //given
+        int value1 = 25;
+        int value2 = 10;
+        //when
+        int sub = Calculator.getSubtraction(25,10);
+        //then
+        Assertions.assertEquals(15, sub);
+    }
 }
