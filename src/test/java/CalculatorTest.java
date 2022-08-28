@@ -23,4 +23,15 @@ public class CalculatorTest {
         //then
         Assertions.assertEquals(15, sub);
     }
+
+    @Test
+    void shouldMultiplyTwoValues() {
+        //given
+        int value1 = 25;
+        int value2 = 10;
+        //when
+        int multiply = Calculator.getMultiplication(25,10);
+        //then
+        Assertions.assertEquals(250, multiply);
+    }
 }
